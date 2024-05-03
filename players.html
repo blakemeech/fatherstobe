@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Meet the Players - Fathers to Be Golf Tournament</title>
+    <!-- Link to IBM Carbon Design System CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/carbon-components/css/carbon-components.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Simple JavaScript function to toggle card expansion -->
+    <script>
+        function toggleDescription(card) {
+            card.classList.toggle("expanded"); /* Toggle the 'expanded' class */
+        }
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <img src="ftb_logo.png" alt="Fathers to Be Logo" class="logo">
+        </header>
+
+        <h4 class="pagelinks">
+            <a href="index.html">Home</a>
+        </h4>
+
+        <div class="player-grid">
+
+            <div class="player-card" onclick="toggleDescription(this)">
+                <!-- Clicking the card toggles description -->
+                <img src="https://via.placeholder.com/150" alt="Player 1">
+                <div class="info">
+                    <h3>Blake Meech</h3>
+                    <p>Birthplace: Truro, NS</p>
+                    <p>Birthdate: Sept. 5, 1997</p>
+                    <div class="toggle-indicator">+</div>
+                </div>
+                <div class="description">
+                    <p>Full time beauty.
+                    </p>
+                </div>
+            </div>
+
+            <div class="player-card" onclick="toggleDescription(this)"> <!-- Repeat for other players -->
+                <img src="https://via.placeholder.com/150" alt="Player 2">
+                <div class="info">
+                    <h3>Luke Melanson</h3>
+                    <p>Birthplace: The Sewer</p>
+                    <p>Birthdate: Jan. 7, 1997</p>
+                    <div class="toggle-indicator">+</div>
+                </div>
+                <div class="description">
+                    <p>Bunker specialist.</p>
+                </div>
+            </div>
+
+            <div class="player-card" onclick="toggleDescription(this)">
+                <!-- Clicking the card toggles description -->
+                <img src="https://via.placeholder.com/150" alt="Player 1">
+                <div class="info">
+                    <h3>Brady Meech</h3>
+                    <p>Birthplace: Truro, NS</p>
+                    <p>Birthdate: Aug. 23, 1997</p>
+                    <div class="toggle-indicator">+</div>
+                </div>
+                <div class="description">
+                    <p>Angry.
+                    </p>
+                </div>
+            </div>
+
+            <div class="player-card" onclick="toggleDescription(this)"> <!-- Repeat for other players -->
+                <img src="https://via.placeholder.com/150" alt="Player 2">
+                <div class="info">
+                    <h3>Jason Aucoin</h3>
+                    <p>Birthplace: Malmo, Sweden</p>
+                    <p>Birthdate: Sept. 6, 1998</p>
+                    <div class="toggle-indicator">+</div>
+                </div>
+                <div class="description">
+                    <p>Duck & Dodge.</p>
+                </div>
+            </div>
+
+        </div>
+
+        <footer>
+            <p>© 2024 Fathers to Be Golf Tournament. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+
+</html>
