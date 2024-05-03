@@ -6,162 +6,7 @@
     <title>Fathers to Be Golf Tournament</title>
     <!-- Link to IBM Carbon Design System CSS -->
     <link rel="stylesheet" href="https://unpkg.com/carbon-components/css/carbon-components.min.css">
-    <style>
-        body {
-            font-family: 'IBM Plex Sans', sans-serif;
-            background-color: #076652;
-            margin: 0;
-            padding: 0;
-        }
-
-        section {
-            padding-top: 2rem;
-            padding-bottom: 2rem;
-        }
-
-        footer {
-            padding-top: 2rem;
-        }
-
-        header {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            /* Centers the content horizontally */
-            flex-direction: column;
-            /* Stacks the logo and title vertically */
-            padding: 1rem 0;
-            height: 350px;
-        }
-
-        .logo {
-            height: 500px;
-        }
-
-        .container {
-            max-width: 1200px;
-            margin: 2rem auto;
-            padding: 2rem;
-            background-color: #f4f4f4;
-        }
-
-        .full-width {
-            width: 100%;
-            /* Ensures the container is the full width of the section */
-            height: 500px;
-            /* Adjust the height to control how much of the image is displayed */
-            overflow: hidden;
-            /* Hides any overflow from the image */
-            position: relative;
-            /* Required for absolute positioning of the image */
-            border-radius: 8px;
-        }
-
-        .full-width img {
-            width: 100%;
-            /* Makes the image take the full width of the container */
-            height: 100%;
-            /* Ensures the image fills the container's height */
-            object-fit: cover;
-            /* Crops the image while maintaining its aspect ratio */
-            object-position: center;
-            /* Centers the image within the container */
-            border-radius: 8px;
-        }
-
-        h1,
-        h2 {
-            font-family: 'Times New Roman', Times, serif;
-            color: #076652;
-            text-align: center;
-            padding-bottom: 0.5rem;
-        }
-
-        table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-
-        th,
-        td {
-            padding: 0.5rem;
-            text-align: left;
-        }
-
-        th {
-            background-color: #e0e0e0;
-        }
-
-        ul {
-            list-style-type: disc;
-            /* Ensures bullet points appear */
-            padding-left: 1rem;
-            /* Indents list for proper alignment */
-        }
-
-        li {
-            padding: 0.5rem;
-        }
-
-        .media-card {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            border: 1px solid #d0d0d0;
-            border-radius: 8px;
-            padding: 1rem;
-            margin: 1rem 0;
-            background-color: #ffffff;
-        }
-
-        .media-card img {
-            height: 100px;
-            /* Adjust this to control image height */
-            width: 100px;
-            border-radius: 50%;
-            /* Makes the image circular */
-            margin-right: 1rem;
-        }
-
-        .media-card .content {
-            flex-direction: column;
-        }
-
-        .media-card .content h3 {
-            margin: 0;
-            color: #076652;
-        }
-
-        .media-card .content p {
-            margin: 0;
-        }
-
-        .rules-section {
-            display: flex;
-            justify-content: space-between;
-            /* Ensures the columns are 50/50 */
-        }
-
-        .rules-text {
-            flex: 1;
-            /* Takes up half of the space */
-            padding-right: 1rem;
-            /* Space between text and image */
-        }
-
-        .rules-image {
-            flex: 1;
-            /* Takes up the other half */
-            text-align: center;
-        }
-
-        .rules-image img {
-            max-height: 400px;
-            /* Ensures the image fills the space */
-            border-radius: 8px;
-            /* Gives the image rounded corners */
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
@@ -169,6 +14,10 @@
         <header>
             <img src="ftb_logo.png" alt="Fathers to Be Logo" class="logo">
         </header>
+
+        <h4>
+            <a href="players.html">Meet the Players</a>
+        </h4>
 
         <section class="full-width">
             <img src="ftb_group22.JPG" alt="Group Photo 2022">
