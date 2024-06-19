@@ -25,6 +25,24 @@ header {
     height: 350px;
 }
 
+.nav-links {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.nav-links a {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: #076652;
+    font-weight: bold;
+    font-size: large;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
 .logo {
     height: 500px;
 }
@@ -220,7 +238,7 @@ li {
     font-weight: bold;
     /* Make the indicator bold */
     text-align: center;
-    color: #0f62fe;
+    color: #076652;
     /* Color to match other elements */
     transition: transform 0.3s;
     /* Transition for smooth effect */
