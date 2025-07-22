@@ -248,3 +248,12 @@ li {
     transform: rotate(180deg);
     /* Flip the indicator when expanded */
 }
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+
+.fade-in.visible {
+    opacity: 1;
+}
